@@ -1,0 +1,12 @@
+.checkout {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    margin-bottom: 10rem;
+    height: fit-content;
+}
+
+#left-div > h2 {
+    border-bottom: 1px solid rgb(197, 197, 197);
+    margin-bottom: 50px;
+}

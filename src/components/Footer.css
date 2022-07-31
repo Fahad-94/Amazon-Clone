@@ -1,0 +1,35 @@
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #131921;
+    color: white;
+}
+
+.list {
+    margin-block: 95px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+li {
+    list-style-type: none;
+    font-weight: 300;
+    cursor: pointer;
+    margin-block: 10px;
+}
+
+li:hover {
+    text-decoration: underline;
+}

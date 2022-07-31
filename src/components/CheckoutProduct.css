@@ -1,0 +1,33 @@
+.checkout-product {
+    display: flex;
+    margin-block: 90px;
+}
+
+.image-div {
+    width: 30%;
+    margin-right: 25px;
+}
+
+.info-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    align-items: flex-start;
+    width: 70%;
+}
+
+.rating {
+    margin-top: 17px;
+}
+
+#rating-star {
+    color: rgb(255, 185, 55);
+}
+
+#remove-btn {
+    margin-top: 15px;
+    padding: 5px;
+    background-color: rgb(237, 177, 66);
+    border: 1px solid rgb(173, 113, 1);
+    cursor: pointer;
+}

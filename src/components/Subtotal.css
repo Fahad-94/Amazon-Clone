@@ -1,0 +1,30 @@
+.subtotal {
+    background-color: rgb(241, 241, 241);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 17px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(211, 211, 211);
+    font-size: larger;
+    box-shadow: 1px 1px 1px gray;
+    padding-inline: 60px;
+    width: fit-content;
+}
+
+.subtotal-gift {
+    margin-bottom: 17px;
+}
+
+#checkout-btn {
+    background-color: rgb(237, 177, 66);
+    padding: 5px;
+    border: 1px solid;
+    width: 230px;
+    cursor: pointer;
+}
+
+strong {
+    margin-left: 10px;
+}
