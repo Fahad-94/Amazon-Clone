@@ -25,16 +25,16 @@ function Nav() {
     }
 
     function userState() {
-        if (user) {
+        if (!user) {
                         return (
                             
-                            <span className='lower-text' onClick={handleLogout}>Sign Out</span>
+                            <span className='lower-text' onClick={toSignInPage}>Sign In</span>
                             
                         )
                     } else {
                         return (
                             
-                            <span className='lower-text' onClick={toSignInPage}>Sign In</span>
+                            <span className='lower-text' onClick={handleLogout}>Sign Out</span>
                             
                         )
                     }
